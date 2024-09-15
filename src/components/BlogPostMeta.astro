@@ -29,7 +29,7 @@ const {
   ogImageHeight,
 } = Astro.props;
 
-const { meta, og, twitter } = getBlogPostMeta({
+const { meta, og } = getBlogPostMeta({
   title: title || SITE_TITLE,
   description: description || SITE_DESCRIPTION,
   pageUrl: pagePath ? new URL(pagePath, SITE_URL).toString() : undefined,
