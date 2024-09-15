@@ -2,7 +2,6 @@
 import Nav from "./Nav.astro";
 import DarkModeToggle from "./DarkModeToggle.astro";
 ---
-
 <header class="">
   <a
     class="unset absolute z-10 left-[50%] -top-[100rem] translate-x-[-50%] bg-white text-black px-8 py-2 focus:top-[initial]"
@@ -11,34 +10,61 @@ import DarkModeToggle from "./DarkModeToggle.astro";
     Skip to content
   </a>
   <Nav />
-  <div
-    class="justify-self-end py-2 flex items-center content-center text-text-bold"
-  >
+  <div class="justify-self-end py-2 flex items-center content-center text-text-bold">
+    <!-- GitHub -->
     <a
       class="unset ml-4 rounded-sm transition-[background-size] duration-150 ease-in-out bg-left-bottom bg-[length:0%_55%] hover:bg-[length:100%_55%] bg-no-repeat bg-gradient-to-r from-primary-yellow to-primary-yellow dark:bg-none dark:hover:text-primary-yellow"
-      href="https://github.com/flexdinesh/blogster"
+      href="https://github.com/Lakshita110"
+      aria-label="GitHub"
     >
-      <i class="fa-brands fa-github" aria-hidden="true" title="Blogster on GitHub"></i>
-      <span>GitHub</span>
+      <i class="fa-brands fa-github"></i>
     </a>
+
+    <!-- LinkedIn -->
     <a
-      class="unset ml-4 rounded-sm transition-[background-size] duration-150 bg-left-bottom bg-[length:0%_55%] hover:bg-[length:100%_55%] bg-no-repeat bg-gradient-to-r from-primary-blue to-primary-blue dark:bg-none dark:hover:text-primary-blue"
-      href="https://twitter.com/flexdinesh"
+      class="unset ml-4 rounded-sm transition-[background-size] duration-150 ease-in-out bg-left-bottom bg-[length:0%_55%] hover:bg-[length:100%_55%] bg-no-repeat bg-gradient-to-r from-primary-yellow to-primary-yellow dark:bg-none dark:hover:text-primary-yellow"
+      href="https://www.linkedin.com/in/lakshita-j"
+      aria-label="LinkedIn"
     >
-      <i class="fa-brands fa-twitter" aria-hidden="true" title="Dinesh on Twitter"></i>
-      <span>Twitter</span>
+      <i class="fa-brands fa-linkedin"></i>
     </a>
+
+    <!-- Notion -->
+    <a
+      class="unset ml-4 rounded-sm transition-[background-size] duration-150 ease-in-out bg-left-bottom bg-[length:0%_55%] hover:bg-[length:100%_55%] bg-no-repeat bg-gradient-to-r from-primary-yellow to-primary-yellow dark:bg-none dark:hover:text-primary-yellow"
+      href="https://lakcluck.notion.site/reading-dashboard-5237e7218428438da658af6e4bac4511"
+      aria-label="Notion"
+    >
+      <i class="fa-classic fa-book"></i>
+    </a>
+
+    <!-- Goodreads -->
+    <a
+      class="unset ml-4 rounded-sm transition-[background-size] duration-150 ease-in-out bg-left-bottom bg-[length:0%_55%] hover:bg-[length:100%_55%] bg-no-repeat bg-gradient-to-r from-primary-yellow to-primary-yellow dark:bg-none dark:hover:text-primary-yellow"
+      href="https://www.goodreads.com/user/show/52820705-lakcluck"
+      aria-label="Goodreads"
+    >
+      <i class="fa-brands fa-goodreads"></i>
+    </a>
+
+    <!-- Email -->
+    <a
+      class="unset ml-4 rounded-sm transition-[background-size] duration-150 ease-in-out bg-left-bottom bg-[length:0%_55%] hover:bg-[length:100%_55%] bg-no-repeat bg-gradient-to-r from-primary-yellow to-primary-yellow dark:bg-none dark:hover:text-primary-yellow"
+      href="lak.jai110@gmail.com"
+      aria-label="Email"
+    >
+      <i class="fa-classic fa-envelope"></i>
+    </a>
+
+    <DarkModeToggle />
   </div>
-  <DarkModeToggle />
 </header>
+
 <style>
   header {
     grid-area: header;
     display: grid;
     align-items: center;
-    grid-template-columns: minmax(0, 1fr) minmax(0, max-content) minmax(
-        0,
-        max-content
-      );
+    grid-template-columns: minmax(0, 1fr) minmax(0, max-content) minmax(0, max-content);
   }
 </style>
