@@ -13,5 +13,13 @@ launch for our team's new and highly-asked for [Platform Pricing Tools](https://
 the Connect Dashboard and thorough feature testing along with collaboration with
 our Product Manager. 
 
-More coming soon... 
+When I started the project, there was a working implementation of the platform 
+pricing tools product, but it had been developed by many different engineers 
+over a couple years. My first task was to spin up on the whole project and 
+and to understand the entire tech stack. There were many places of duplicate, 
+redundant, and unused code (it would be my final task to clean that up). Eventually, 
+I began implementing new features and consolidating the different versions of the
+product that existed. This involved learning a lot about the use cases, and the
+specific needs of our clients. I found that aspect - connecting business needs to 
+specific product details - of my project highly valuable.
 
