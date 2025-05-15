@@ -2,7 +2,7 @@
 external: false
 title: 💬 GailBot
 description: Open-source transcription tool designed to convert audio files into text using automatic speech recognition (ASR) technology.
-date: 2023-12-15
+date: 2024-02-15
 ---
 
 #### Overview
@@ -15,4 +15,4 @@ The project was built and deployed using:
 - PyQt for the GUI
 
 #### Code
-Link to [Github](https://github.com/Lakshita110/tufts-dining-calendar)!
+Link to [Github](https://github.com/Leahkkkkk/GailBot)!
