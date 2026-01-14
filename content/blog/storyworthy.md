@@ -8,8 +8,8 @@ date: 2025-05-15
 A couple weeks ago, I was listening to an episode of the Knowledge Project and
 the guest was Matthew Dicks. He was talking about the art of storytelling and 
 I was captivated. Soon thereafter, I bought his book and after it inevitably, 
-sat on the bookshelf for a bit, I have recently picked it up and found it a
-fantastic read. 
+after it sat on the bookshelf for a bit, I have recently picked it up and found 
+it a fantastic read. 
 
 He explains that people have different motivations for learning to tell stories,
 ranging from improving a sales pitch to reconnecting with grandchildren. Personally,
