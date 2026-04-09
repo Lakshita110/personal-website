@@ -76,13 +76,6 @@ export const config: Config = {
       },
       selfClosing: true,
     },
-    tweet: {
-      render: "TweetEmbed",
-      attributes: {
-        url: { type: String, required: true },
-      },
-      selfClosing: true,
-    },
     codepen: {
       render: "CodePenEmbed",
       attributes: {
@@ -111,17 +104,6 @@ export const config: Config = {
         return new Tag(this.render, { ...attributes }, children);
       },
     },
-    // if you want to customise default tags, this is where you'd do it
-    // after adding the code here, add an Astro component for this node
-    // in Renderer.astro component
-    // paragraph: {
-    //   render: "paragraph",
-    //   transform(node, config) {
-    //     const attributes = node.transformAttributes(config);
-    //     const children = node.transformChildren(config);
-    //     return new Tag(this.render, { ...attributes }, children);
-    //   },
-    // },
     fence: {
       render: "CodeBlock",
       attributes: {
