@@ -1,6 +1,6 @@
 ---
 external: false
-title: 💬 GailBot
+title: GailBot — Speech Transcription Tool
 description: Open-source transcription tool designed to convert audio files into text using automatic speech recognition (ASR) technology.
 date: 2024-02-15
 ---

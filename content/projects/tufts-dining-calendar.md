@@ -1,6 +1,6 @@
 ---
 external: false
-title: 🍽️ Tufts Dining Calendar
+title: Tufts Dining Calendar — Google Calendar Integration
 description: Python program to scrape Tufts dining website and make events in Google Calendar.
 date: 2023-08-07
 ---

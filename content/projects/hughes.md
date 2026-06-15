@@ -1,6 +1,6 @@
 ---
 external: false
-title: 👁️ ML research @ Hughes Lab
+title: Hughes Lab — ML Research
 description: Semi-supervised and self-supervised learning for medical data.
 date: 2025-05-09
 ---
