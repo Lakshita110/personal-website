@@ -1,6 +1,6 @@
 ---
 external: false
-title: 🦙 Experience as a SWE @ Stripe
+title: SWE Intern @ Stripe
 description: Learnings, takeaways & thoughts about being a Stripe!
 date: 2024-09-15
 ---
