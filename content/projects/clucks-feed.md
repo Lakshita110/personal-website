@@ -2,7 +2,7 @@
 external: false
 title: Cluck's Feed — AI-Powered RSS Reader
 description: A calm, keyboard-friendly RSS reader and newsletter inbox with AI-powered personalization.
-date: 2026-05-01
+date: 2026-04-06
 ---
 
 ![Cluck's Feed inbox view](/images/projects/clucks-feed.png)
